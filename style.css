@@ -1,0 +1,95 @@
+
+/*Colors:
+peach: #FF9387
+dark gray: #2B2D42*/
+
+body {
+    position: relative;
+   padding-top: 0px;
+   /*background: #cca1b7;*/
+   background: #a6a6a6;
+   color: #ede0de;
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+   margin: -10 -10 -10 -10;
+}
+
+#mainNavbar, p {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+#about {
+  text-align: center;
+  background: #a6a6a6;
+  padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Hind Guntur', sans-serif;
+  font-weight: 550;
+  font-size: 30px;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin: 10px;
+}
+
+
+.button:hover {
+  background-color: #FF9387;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color:#a6a6a6;
+  color: #fff;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#contact {
+ color: #fff; 
+ width: 100%;
+ text-align: center;
+}
+
+
+a {color:#fff;}
+a:hover{color:#FF9387;}
+a:active{color:#2B2D42;}
+
+.img-circle {
+   border-radius: 50%;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.navbar.scrolled {
+  background: #a6a6a6;
+  /*for the nav to fade into the new color in mseconds or seconds:*/
+  transition: background 100ms;
+}
+
+@media (max-width: 960px){
+  #headingGroup h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  }
+}
+
